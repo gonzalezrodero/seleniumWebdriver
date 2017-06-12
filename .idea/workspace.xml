@@ -1,183 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c95706d-b67c-4f69-8d1e-e23d90402ec7" name="Default" comment="Upload project">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/APPIUM-CLk3LH3xfJTLHdQ.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/APPIUM-Gtnhw5hGh4UDvQz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/APPIUM-MztsdrEBRDI4mb8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/APPIUM-VfiuXCXb2xEoPw5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/APPIUM-qJHaCx1Lmn8w7Nu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/APPIUM-swl1t40Vhc50QS1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/APPIUM-uDR2nJaZnfyPNDl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/APPIUM-vdxTPKzefXSoo3n.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/CHROME-IDUaYfkgGluAn4J.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/CHROME-iEpOMhZxfJ9RlmB.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/CHROME-lRe6LI3mzw7J4cc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/CHROME-o1susQmcEdZs2Op.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/FIREFOX-4caoD09nnvqL54Z.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/FIREFOX-7Juzko8MYHP3M74.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/FIREFOX-MeOJDCN4ELslr16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/bin/phantomjs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/bin/phantomjs.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_htmlunit_driver_2_26.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_serializer_2_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/seleniumWebdriver.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seleniumsimplified/Appium.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seleniumsimplified/Driver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seleniumsimplified/PropertyManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seleniumsimplified/Terminal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seleniumsimplified/enums/DriverType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seleniumsimplified/enums/OperativeSystem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/config.properties.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/BaseTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Cookies/CookieTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Iterrogation/ByCSSTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Iterrogation/DOMInterrogationTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Iterrogation/FindElementsTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Iterrogation/GetTitleReplacementExerciseTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Iterrogation/InterrogationTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Iterrogation/XPathTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/JavaScript/AsyncJavaScriptTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/JavaScript/JavaScriptTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Manipulation/AlertExerciseListTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Manipulation/FrameExerciseListTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Manipulation/ManageWindowExerciseListTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Manipulation/ManipulationExerciseListTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Manipulation/UserInteractionExerciseListTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Manipulation/WindowExerciseListTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/ScreenshotTest/TakeScreenshotTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Synchronisation/CustomExpectedConditionTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Synchronisation/FeelingThePainTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Synchronisation/FluentWaitTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/junit/JUnitBeforeAndAfterTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/junit/JUnitExampleTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/junit/JUnitExerciseTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/webdriver/FirstTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/webdriver/SecondTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/appiumLauncher.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/ChangeLog" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/LICENSE.BSD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/arguments.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/child_process-examples.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/colorwheel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/countdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/detectsniff.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/echoToFile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/features.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/fibo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/hello.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/injectme.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/loadspeed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/loadurlwithoutcss.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/modernizr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/netlog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/netsniff.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/openurlwithproxy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/outputEncoding.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/page_events.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/pagecallback.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/phantomwebintro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/post.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/postjson.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/postserver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/printenv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/printheaderfooter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/printmargins.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/rasterize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/render_multi_url.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/responsive-screenshot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/run-jasmine.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/run-jasmine2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/run-qunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/scandir.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/serverkeepalive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/simpleserver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/sleepsort.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/stdin-stdout-stderr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/universe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/unrandomize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/useragent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/version.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/waitfor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/examples/walk_through_frames.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-macosx/third-party.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/ChangeLog" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/LICENSE.BSD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/arguments.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/child_process-examples.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/colorwheel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/countdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/detectsniff.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/echoToFile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/features.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/fibo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/hello.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/injectme.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/loadspeed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/loadurlwithoutcss.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/modernizr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/netlog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/netsniff.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/openurlwithproxy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/outputEncoding.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/page_events.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/pagecallback.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/phantomwebintro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/post.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/postjson.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/postserver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/printenv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/printheaderfooter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/printmargins.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/rasterize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/render_multi_url.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/responsive-screenshot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/run-jasmine.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/run-jasmine2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/run-qunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/scandir.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/serverkeepalive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/simpleserver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/sleepsort.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/stdin-stdout-stderr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/universe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/unrandomize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/useragent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/version.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/waitfor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/examples/walk_through_frames.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/phantomjs-2.1.1-windows/third-party.txt" />
+    <list default="true" id="1c95706d-b67c-4f69-8d1e-e23d90402ec7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -206,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.properties.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="config.properties.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/target/classes/config.properties.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -226,15 +51,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WindowExerciseListTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WindowExerciseListTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Manipulation/WindowExerciseListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
+            <state relative-caret-position="706">
               <caret line="84" column="38" lean-forward="false" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
               <folding>
                 <element signature="e#2865#2866#0" expanded="true" />
                 <element signature="e#2911#2912#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetTitleReplacementExerciseTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Iterrogation/GetTitleReplacementExerciseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -284,16 +119,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="63">
               <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/seleniumsimplified/BaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -981,7 +806,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497270187980</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Upload project">
+      <created>1497270791731</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1497270791731</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1027,12 +859,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1929" y="-9" width="1938" height="1218" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297456" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297456" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297456" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297456" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1044,7 +875,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297456" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27604726" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27604726" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1077,14 +908,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/seleniumsimplified/enums/DriverType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -1420,6 +1243,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Manipulation/WindowExerciseListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="84" column="38" lean-forward="false" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
+          <folding>
+            <element signature="e#2865#2866#0" expanded="true" />
+            <element signature="e#2911#2912#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Iterrogation/GetTitleReplacementExerciseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/seleniumsimplified/Appium.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="454">
@@ -1427,14 +1269,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/config.properties.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1446,14 +1280,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Manipulation/WindowExerciseListTest.java">
+    <entry file="file://$PROJECT_DIR$/target/classes/config.properties.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="84" column="38" lean-forward="false" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
-          <folding>
-            <element signature="e#2865#2866#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
