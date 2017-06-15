@@ -7,7 +7,7 @@
 
     <!--Properties-->
     <entry key="driver.default">CHROME</entry>
-    <entry key="driver.appium">true</entry>
+    <entry key="driver.appium">false</entry>
 
     <!--Appium-->
     <entry key="appium.browser">Chrome</entry>
