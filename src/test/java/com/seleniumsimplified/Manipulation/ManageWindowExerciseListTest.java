@@ -36,8 +36,8 @@ public class ManageWindowExerciseListTest extends BaseTest{
         driver.manage().window().maximize();
         Dimension windowSizeMax = driver.manage().window().getSize();
 
-        assertThat(windowSizeMax.getHeight(), greaterThan((int) (fullScreenSize.getHeight()*0.75)));
-        assertThat(windowSizeMax.getWidth(), greaterThan((int) (fullScreenSize.getWidth()*0.75)));
+        assertThat(windowSizeMax.getHeight(), greaterThan((int) (fullScreenSize.getHeight()*0.50)));
+        assertThat(windowSizeMax.getWidth(), greaterThan((int) (fullScreenSize.getWidth()*0.50)));
     }
 
     @Test

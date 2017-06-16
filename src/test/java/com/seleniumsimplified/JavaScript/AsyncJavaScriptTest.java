@@ -24,7 +24,7 @@ public class AsyncJavaScriptTest extends BaseTest{
     private static URL url;
     private static JavascriptExecutor js;
 
-    /*@BeforeClass
+    @BeforeClass
     public static void setDriver() throws MalformedURLException {
         url = new URL("http://www.compendiumdev.co.uk/selenium/basic_ajax.html");
         driver.navigate().to(url);
@@ -60,5 +60,5 @@ public class AsyncJavaScriptTest extends BaseTest{
                         "xhr.send();");
         System.out.println((String)response);
         assertThat((String)response, containsString("{optionValue:10, optionDisplay: 'C++'}"));
-    }*/
+    }
 }

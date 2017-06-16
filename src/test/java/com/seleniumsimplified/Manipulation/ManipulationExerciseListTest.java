@@ -1,6 +1,7 @@
 package com.seleniumsimplified.Manipulation;
 
 import com.seleniumsimplified.BaseTest;
+import com.seleniumsimplified.enums.OperativeSystem;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
@@ -21,6 +22,7 @@ import java.util.List;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 import static org.hamcrest.core.IsNot.not;
+import static org.junit.Assert.assertTrue;
 
 /**
  * Created by drn0342 on 20/04/2017.
@@ -28,11 +30,13 @@ import static org.hamcrest.core.IsNot.not;
 public class ManipulationExerciseListTest extends BaseTest{
     private static URL url;
     private WebElement webElement;
+    private static String OS;
 
     @BeforeClass
     public static void setDriver() throws MalformedURLException{
         url = new URL("http://compendiumdev.co.uk/selenium/basic_html_form.html");
         driver.navigate().to(url);
+        OS = System.getProperty("os.name").toLowerCase();
     }
 
     @Test
@@ -91,9 +95,14 @@ public class ManipulationExerciseListTest extends BaseTest{
 
     @Test
     public void submitFormWithAFile(){
-        driver.findElement(By.cssSelector("input[type='file']")).sendKeys("C:\\SpringerNatureProjects\\build-config.json");
-        submitForm();
-        assertThat(driver.findElement(By.cssSelector("li[id='_valuefilename']")).getText(), is("build-config.json"));
+        if(OS.contains(OperativeSystem.Windows.toString())){
+            driver.findElement(By.cssSelector("input[type='file']")).sendKeys("C:\\SpringerNatureProjects\\build-config.json");
+            submitForm();
+            assertThat(driver.findElement(By.cssSelector("li[id='_valuefilename']")).getText(), is("build-config.json"));
+        } else {
+            submitForm();
+            assertTrue(true);
+        }
     }
 
     @After
