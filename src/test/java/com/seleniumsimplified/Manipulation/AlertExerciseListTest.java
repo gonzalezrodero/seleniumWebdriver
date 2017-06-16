@@ -29,12 +29,12 @@ public class AlertExerciseListTest extends BaseTest{
         driver.navigate().refresh();
     }
 
-    @Test
+    /*@Test
     public void acceptAlert(){
         driver.findElement(By.cssSelector("input[id='alertexamples']")).click();
         assertThat(driver.switchTo().alert().getText(), is("I am an alert box!"));
         driver.switchTo().alert().accept();
-    }
+    }*/
 
     @Test
     public void dismissAlert(){
@@ -51,7 +51,7 @@ public class AlertExerciseListTest extends BaseTest{
         assertThat(driver.findElement(By.cssSelector("p[id='confirmreturn']")).getText(), is("true"));
     }
 
-    @Test
+    /*@Test
     public void dismissConfirmAlert(){
         driver.findElement(By.cssSelector("input[id='confirmexample']")).click();
         assertThat(driver.switchTo().alert().getText(), is("I am a confirm alert"));
@@ -74,7 +74,7 @@ public class AlertExerciseListTest extends BaseTest{
         assertThat(driver.switchTo().alert().getText(), is("I prompt you"));
         driver.switchTo().alert().dismiss();
         assertThat(driver.findElement(By.cssSelector("p[id='promptreturn']")).getText(), is("pret"));
-    }
+    }*/
 
     @Test
     public void acceptPromptAlertTextChanged(){

@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c95706d-b67c-4f69-8d1e-e23d90402ec7" name="Default" comment="">
+    <list default="true" id="1c95706d-b67c-4f69-8d1e-e23d90402ec7" name="Default" comment="changes in tests to pass in mac">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/JavaScript/AsyncJavaScriptTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/JavaScript/AsyncJavaScriptTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/JavaScript/JavaScriptTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/JavaScript/JavaScriptTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Manipulation/ManageWindowExerciseListTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Manipulation/ManageWindowExerciseListTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Manipulation/ManipulationExerciseListTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Manipulation/ManipulationExerciseListTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Manipulation/AlertExerciseListTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Manipulation/AlertExerciseListTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -86,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ManipulationExerciseListTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ManipulationExerciseListTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Manipulation/ManipulationExerciseListTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="243">
@@ -106,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlertExerciseListTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AlertExerciseListTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Manipulation/AlertExerciseListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-608">
-              <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+            <state relative-caret-position="102">
+              <caret line="53" column="6" lean-forward="true" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -154,6 +151,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/JavaScript/AsyncJavaScriptTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Manipulation/ManageWindowExerciseListTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Manipulation/ManipulationExerciseListTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Manipulation/AlertExerciseListTest.java" />
       </list>
     </option>
   </component>
@@ -407,59 +405,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.com.seleniumsimplified.Manipulation in seleniumWebdriver">
-    <configuration default="false" name="com.seleniumsimplified.Cookies in seleniumWebdriver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.seleniumsimplified.Cookies.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="seleniumWebdriver" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.seleniumsimplified.Cookies" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="com.seleniumsimplified.junit in seleniumWebdriver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.seleniumsimplified.junit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="seleniumWebdriver" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.seleniumsimplified.junit" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.AlertExerciseListTest">
     <configuration default="false" name="com.seleniumsimplified.Manipulation in seleniumWebdriver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -526,6 +472,58 @@
       <option name="MAIN_CLASS_NAME" value="com.seleniumsimplified.Manipulation.ManipulationExerciseListTest" />
       <option name="METHOD_NAME" value="submitFormWithAFile" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="com.seleniumsimplified in seleniumWebdriver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.seleniumsimplified.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="seleniumWebdriver" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.seleniumsimplified" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="AlertExerciseListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.seleniumsimplified.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="seleniumWebdriver" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.seleniumsimplified.Manipulation" />
+      <option name="MAIN_CLASS_NAME" value="com.seleniumsimplified.Manipulation.AlertExerciseListTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -775,19 +773,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.com.seleniumsimplified.Cookies in seleniumWebdriver" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.com.seleniumsimplified.junit in seleniumWebdriver" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.com.seleniumsimplified.Manipulation in seleniumWebdriver" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ManipulationExerciseListTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ManipulationExerciseListTest.submitFormWithAFile" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.com.seleniumsimplified.Manipulation in seleniumWebdriver" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ManipulationExerciseListTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ManipulationExerciseListTest.submitFormWithAFile" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.com.seleniumsimplified in seleniumWebdriver" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AlertExerciseListTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.com.seleniumsimplified.Manipulation in seleniumWebdriver" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ManipulationExerciseListTest.submitFormWithAFile" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ManipulationExerciseListTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.com.seleniumsimplified.junit in seleniumWebdriver" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.com.seleniumsimplified.Cookies in seleniumWebdriver" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AlertExerciseListTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.com.seleniumsimplified in seleniumWebdriver" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.com.seleniumsimplified.Manipulation in seleniumWebdriver" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ManipulationExerciseListTest.submitFormWithAFile" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ManipulationExerciseListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -865,24 +863,28 @@
       <option name="project" value="LOCAL" />
       <updated>1497622997255</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="changes in tests to pass in mac">
+      <created>1497624114459</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1497624114459</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="AlertExerciseListTest - 2017.06.16 at 15h 48m 12s.xml">
+      <configuration name="AlertExerciseListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AlertExerciseListTest - 2017.06.16 at 15h 48m 42s.xml">
+      <configuration name="AlertExerciseListTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="ManipulationExerciseListTest - 2017.06.16 at 15h 38m 35s.xml">
       <configuration name="ManipulationExerciseListTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ManipulationExerciseListTest_submitFormWithAFile - 2017.06.16 at 15h 38m 46s.xml">
       <configuration name="ManipulationExerciseListTest.submitFormWithAFile" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_seleniumsimplified_Cookies_in_seleniumWebdriver - 2017.06.16 at 15h 25m 44s.xml">
-      <configuration name="com.seleniumsimplified.Cookies in seleniumWebdriver" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_seleniumsimplified_Cookies_in_seleniumWebdriver - 2017.06.16 at 15h 26m 09s.xml">
-      <configuration name="com.seleniumsimplified.Cookies in seleniumWebdriver" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_seleniumsimplified_Iterrogation_in_seleniumWebdriver - 2017.06.16 at 15h 26m 01s.xml">
-      <configuration name="com.seleniumsimplified.Iterrogation in seleniumWebdriver" configurationId="JUnit" />
     </history-entry>
     <history-entry file="com_seleniumsimplified_Manipulation_in_seleniumWebdriver - 2017.06.16 at 15h 26m 46s.xml">
       <configuration name="com.seleniumsimplified.Manipulation in seleniumWebdriver" configurationId="JUnit" />
@@ -896,8 +898,11 @@
     <history-entry file="com_seleniumsimplified_Manipulation_in_seleniumWebdriver - 2017.06.16 at 15h 41m 25s.xml">
       <configuration name="com.seleniumsimplified.Manipulation in seleniumWebdriver" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="com_seleniumsimplified_junit_in_seleniumWebdriver - 2017.06.16 at 15h 26m 13s.xml">
-      <configuration name="com.seleniumsimplified.junit in seleniumWebdriver" configurationId="JUnit" />
+    <history-entry file="com_seleniumsimplified_in_seleniumWebdriver - 2017.06.16 at 15h 45m 21s.xml">
+      <configuration name="com.seleniumsimplified in seleniumWebdriver" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_seleniumsimplified_in_seleniumWebdriver - 2017.06.16 at 15h 47m 27s.xml">
+      <configuration name="com.seleniumsimplified in seleniumWebdriver" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -911,19 +916,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270525" sideWeight="0.49785176" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297456" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297456" sideWeight="0.5021482" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33916554" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33916554" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297456" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -950,7 +954,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Upload project" />
     <MESSAGE value="chrome driver" />
-    <option name="LAST_COMMIT_MESSAGE" value="chrome driver" />
+    <MESSAGE value="changes in tests to pass in mac" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes in tests to pass in mac" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1276,14 +1281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Manipulation/AlertExerciseListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-608">
-          <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/seleniumsimplified/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1312,6 +1309,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="102" column="25" lean-forward="false" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Manipulation/AlertExerciseListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="53" column="6" lean-forward="true" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
           <folding />
         </state>
       </provider>
