@@ -28,6 +28,7 @@ public class Driver {
         }
         switch (browserToUse) {
             case "CHROME":
+                System.setProperty("webdriver.chrome.driver", "webdrivers/chrome/chromedriver");
                 return webDriver = new ChromeDriver();
             case "FIREFOX":
                 DesiredCapabilities ffCaps = DesiredCapabilities.firefox();
