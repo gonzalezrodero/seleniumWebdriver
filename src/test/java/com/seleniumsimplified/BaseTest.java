@@ -18,7 +18,7 @@ public class BaseTest {
         if (getProperty("driver.appium").equals("true")){
             System.setProperty(Driver.SELENIUM2_BASICS_DRIVER, DriverType.APPIUM.toString());
         } else {
-            System.setProperty(Driver.SELENIUM2_BASICS_DRIVER, getProperty("driver.default"));
+            System.setProperty(Driver.SELENIUM2_BASICS_DRIVER, getProperty("driver.browser"));
         }
         driver = Driver.get();
     }
