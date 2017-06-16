@@ -29,7 +29,7 @@ public class JavaScriptTest extends BaseTest{
     private static URL url;
     private static JavascriptExecutor js;
 
-    @BeforeClass
+    /*@BeforeClass
     public static void setDriver() throws MalformedURLException{
         url = new URL("http://www.compendiumdev.co.uk/selenium/canvas_basic.html");
         driver.navigate().to(url);
@@ -82,5 +82,5 @@ public class JavaScriptTest extends BaseTest{
         js.executeScript("window.webdriveralert.call();");
         assertThat(driver.switchTo().alert().getText(), is("stored alert triggered by webdriver"));
         driver.switchTo().alert().accept();
-    }
+    }*/
 }
