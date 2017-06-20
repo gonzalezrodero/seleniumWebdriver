@@ -23,18 +23,15 @@ public class Driver {
     private static WebDriver webDriver;
 
     public static WebDriver get() throws Exception {
-        //if(System.getProperties().containsKey(SELENIUM2_BASICS_DRIVER)){
-                    //System.getProperty(SELENIUM2_BASICS_DRIVER);
-        //}
         if(webDriver != null){
             return webDriver;
         }
-        browserToUse = System.getProperty("selenium2basics.driver");
+        browserToUse = System.getProperty(BROWSER_PROPERTY_NAME);
         switch (browserToUse) {
             case "CHROME":
                 //System.setProperty("webdriver.chrome.driver", "webdrivers/chrome/chromedriver");
                 return webDriver = new ChromeDriver();
-            case "Firefox":
+            case "FIREFOX":
                 DesiredCapabilities ffCaps = DesiredCapabilities.firefox();
                 ffCaps.setCapability(CapabilityType.TAKES_SCREENSHOT, Boolean.TRUE);
                 return webDriver = new FirefoxDriver(ffCaps);

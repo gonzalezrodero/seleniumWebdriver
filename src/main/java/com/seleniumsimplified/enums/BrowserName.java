@@ -1,6 +1,6 @@
 package com.seleniumsimplified.enums;
 
-public enum DriverType{
+public enum BrowserName{
     HTMLUNIT, CHROME, FIREFOX, IE,
     GHOST, SAUCE_LABS, APPIUM;
 }
