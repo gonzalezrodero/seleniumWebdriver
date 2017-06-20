@@ -1,64 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c95706d-b67c-4f69-8d1e-e23d90402ec7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/seleniumsimplified/Driver.class" afterPath="$PROJECT_DIR$/target/classes/com/seleniumsimplified/Driver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/seleniumsimplified/PropertyManager.class" afterPath="$PROJECT_DIR$/target/classes/com/seleniumsimplified/PropertyManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumsimplified/BaseTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumsimplified/BaseTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="1c95706d-b67c-4f69-8d1e-e23d90402ec7" name="Default" comment="changes in tests to pass in mac">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Cookies.CookieTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Cookies.CookieTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Iterrogation.ByCSSTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Iterrogation.ByCSSTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Iterrogation.DOMInterrogationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Iterrogation.DOMInterrogationTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Iterrogation.FindElementsTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Iterrogation.FindElementsTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Iterrogation.GetTitleReplacementExerciseTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Iterrogation.GetTitleReplacementExerciseTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Iterrogation.InterrogationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Iterrogation.InterrogationTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Iterrogation.XPathTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Iterrogation.XPathTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.JavaScript.AsyncJavaScriptTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.JavaScript.AsyncJavaScriptTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.JavaScript.JavaScriptTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.JavaScript.JavaScriptTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Manipulation.AlertExerciseListTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Manipulation.AlertExerciseListTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Manipulation.FrameExerciseListTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Manipulation.FrameExerciseListTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Manipulation.ManageWindowExerciseListTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Manipulation.ManageWindowExerciseListTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Manipulation.ManipulationExerciseListTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Manipulation.ManipulationExerciseListTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Manipulation.UserInteractionExerciseListTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Manipulation.UserInteractionExerciseListTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Manipulation.WindowExerciseListTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Manipulation.WindowExerciseListTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.ScreenshotTest.TakeScreenshotTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.ScreenshotTest.TakeScreenshotTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Synchronisation.CustomExpectedConditionTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Synchronisation.CustomExpectedConditionTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Synchronisation.FeelingThePainTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Synchronisation.FeelingThePainTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Synchronisation.FluentWaitTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.Synchronisation.FluentWaitTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.junit.JUnitBeforeAndAfterTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.junit.JUnitBeforeAndAfterTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.junit.JUnitExampleTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.junit.JUnitExampleTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.junit.JUnitExerciseTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.junit.JUnitExerciseTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.webdriver.FirstTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.webdriver.FirstTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.webdriver.SecondTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.seleniumsimplified.webdriver.SecondTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Cookies.CookieTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Cookies.CookieTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Iterrogation.ByCSSTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Iterrogation.ByCSSTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Iterrogation.DOMInterrogationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Iterrogation.DOMInterrogationTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Iterrogation.FindElementsTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Iterrogation.FindElementsTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Iterrogation.GetTitleReplacementExerciseTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Iterrogation.GetTitleReplacementExerciseTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Iterrogation.InterrogationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Iterrogation.InterrogationTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Iterrogation.XPathTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Iterrogation.XPathTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.JavaScript.AsyncJavaScriptTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.JavaScript.AsyncJavaScriptTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.JavaScript.JavaScriptTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.JavaScript.JavaScriptTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Manipulation.AlertExerciseListTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Manipulation.AlertExerciseListTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Manipulation.FrameExerciseListTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Manipulation.FrameExerciseListTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Manipulation.ManageWindowExerciseListTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Manipulation.ManageWindowExerciseListTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Manipulation.ManipulationExerciseListTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Manipulation.ManipulationExerciseListTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Manipulation.UserInteractionExerciseListTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Manipulation.UserInteractionExerciseListTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Manipulation.WindowExerciseListTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Manipulation.WindowExerciseListTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.ScreenshotTest.TakeScreenshotTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.ScreenshotTest.TakeScreenshotTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Synchronisation.CustomExpectedConditionTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Synchronisation.CustomExpectedConditionTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Synchronisation.FeelingThePainTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Synchronisation.FeelingThePainTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Synchronisation.FluentWaitTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.Synchronisation.FluentWaitTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.junit.JUnitBeforeAndAfterTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.junit.JUnitBeforeAndAfterTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.junit.JUnitExampleTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.junit.JUnitExampleTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.junit.JUnitExerciseTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.junit.JUnitExerciseTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.webdriver.FirstTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.webdriver.FirstTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.webdriver.SecondTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.seleniumsimplified.webdriver.SecondTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/BaseTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/BaseTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -75,12 +20,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/seleniumsimplified/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-              <folding />
+            <state relative-caret-position="126">
+              <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,16 +67,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -183,12 +120,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/seleniumsimplified/PropertyManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/seleniumsimplified/Appium.java" />
         <option value="$PROJECT_DIR$/src/test/resources/config.properties.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/seleniumsimplified/enums/DriverType.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/seleniumsimplified/Driver.java" />
         <option value="$PROJECT_DIR$/src/test/resources/config.properties" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/BaseTest.java" />
       </list>
     </option>
   </component>
@@ -988,7 +925,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497973723677</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="changes in tests to pass in mac">
+      <created>1497973811444</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1497973811444</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1350,14 +1294,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/seleniumsimplified/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -1387,6 +1323,16 @@
         <state relative-caret-position="231">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/seleniumsimplified/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
