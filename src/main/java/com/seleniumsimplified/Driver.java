@@ -16,21 +16,25 @@ import static com.seleniumsimplified.Appium.*;
 import static com.seleniumsimplified.PropertyManager.*;
 
 public class Driver {
-    static final String SELENIUM2_BASICS_DRIVER = "selenium2basics.driver";
+    static final String BROWSER_PROPERTY_NAME = "selenium2basics.driver";
     public static String  browserToUse = "";
     private static final File PHANTOMJS_EXE =
             new File(System.getProperty("user.dir"), "tools/phantomjs-2.1.1-macosx/bin/phantomjs");
     private static WebDriver webDriver;
 
     public static WebDriver get() throws Exception {
-        if(System.getProperties().containsKey(SELENIUM2_BASICS_DRIVER)){
-            browserToUse = System.getProperty(SELENIUM2_BASICS_DRIVER);
+        //if(System.getProperties().containsKey(SELENIUM2_BASICS_DRIVER)){
+                    //System.getProperty(SELENIUM2_BASICS_DRIVER);
+        //}
+        if(webDriver != null){
+            return webDriver;
         }
+        browserToUse = System.getProperty("selenium2basics.driver");
         switch (browserToUse) {
             case "CHROME":
                 //System.setProperty("webdriver.chrome.driver", "webdrivers/chrome/chromedriver");
                 return webDriver = new ChromeDriver();
-            case "FIREFOX":
+            case "Firefox":
                 DesiredCapabilities ffCaps = DesiredCapabilities.firefox();
                 ffCaps.setCapability(CapabilityType.TAKES_SCREENSHOT, Boolean.TRUE);
                 return webDriver = new FirefoxDriver(ffCaps);

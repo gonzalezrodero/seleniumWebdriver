@@ -6,7 +6,7 @@
     <entry key="url.appium">http://127.0.0.1:4723/wd/hub</entry>
 
     <!--Properties-->
-    <entry key="driver.browser">CHROME</entry>
+    <entry key="browser">CHROME</entry>
     <entry key="driver.appium">false</entry>
 
     <!--Appium-->

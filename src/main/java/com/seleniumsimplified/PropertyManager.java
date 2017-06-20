@@ -8,7 +8,7 @@ public class PropertyManager {
 
     public static String getProperty(String propertyKey) throws IOException {
         //FileInputStream propertiesFileInput = new FileInputStream(new File("src/main/resources/config.properties.xml"));
-        FileInputStream propertiesFileInput = new FileInputStream(new File("src/main/resources/config.properties"));
+        FileInputStream propertiesFileInput = new FileInputStream(new File("src/test/resources/config.properties"));
         properties = new Properties();
         //properties.loadFromXML(propertiesFileInput);
         properties.load(propertiesFileInput);

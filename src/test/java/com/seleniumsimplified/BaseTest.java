@@ -15,11 +15,9 @@ public class BaseTest {
 
     @BeforeClass
     public static void beforeAll() throws Exception {
-        if (getProperty("driver.appium").equals("true")){
-            System.setProperty(Driver.SELENIUM2_BASICS_DRIVER, DriverType.APPIUM.toString());
-        } else {
-            System.setProperty(Driver.SELENIUM2_BASICS_DRIVER, getProperty("driver.browser"));
-        }
+//        if (getProperty("driver.appium").equals("true")){
+//            System.setProperty(Driver.SELENIUM2_BASICS_DRIVER, DriverType.APPIUM.toString());
+//        }
         driver = Driver.get();
     }
 
