@@ -4,6 +4,7 @@
     <list default="true" id="1c95706d-b67c-4f69-8d1e-e23d90402ec7" name="Default" comment="changes in tests to pass in mac">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/seleniumsimplified/Driver.class" afterPath="$PROJECT_DIR$/target/classes/com/seleniumsimplified/Driver.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/seleniumsimplified/PropertyManager.class" afterPath="$PROJECT_DIR$/target/classes/com/seleniumsimplified/PropertyManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webdrivers-win/internetExplorer/IEDriverServer.exe" afterPath="$PROJECT_DIR$/webdrivers-win/internetExplorer/IEDriverServer.exe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
@@ -45,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/seleniumsimplified/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
-              <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+              <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -55,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/seleniumsimplified/PropertyManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="294">
-              <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+              <caret line="15" column="51" lean-forward="false" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -828,19 +829,17 @@
       <option name="project" value="LOCAL" />
       <updated>1497946632164</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="changes in tests to pass in mac">
+      <created>1497949060560</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1497949060560</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="com_seleniumsimplified_Manipulation_in_seleniumWebdriver - 2017.06.16 at 15h 41m 25s.xml">
-      <configuration name="com.seleniumsimplified.Manipulation in seleniumWebdriver" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_seleniumsimplified_in_seleniumWebdriver - 2017.06.16 at 15h 45m 21s.xml">
-      <configuration name="com.seleniumsimplified in seleniumWebdriver" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_seleniumsimplified_in_seleniumWebdriver - 2017.06.16 at 15h 47m 27s.xml">
-      <configuration name="com.seleniumsimplified in seleniumWebdriver" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="com_seleniumsimplified_in_seleniumWebdriver - 2017.06.16 at 15h 55m 21s.xml">
       <configuration name="com.seleniumsimplified in seleniumWebdriver" configurationId="JUnit" />
     </history-entry>
@@ -860,6 +859,15 @@
       <configuration name="com.seleniumsimplified in seleniumWebdriver" configurationId="JUnit" />
     </history-entry>
     <history-entry file="com_seleniumsimplified_in_seleniumWebdriver - 2017.06.20 at 09h 16m 13s.xml">
+      <configuration name="com.seleniumsimplified in seleniumWebdriver" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_seleniumsimplified_in_seleniumWebdriver - 2017.06.20 at 09h 58m 28s.xml">
+      <configuration name="com.seleniumsimplified in seleniumWebdriver" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_seleniumsimplified_in_seleniumWebdriver - 2017.06.20 at 09h 59m 09s.xml">
+      <configuration name="com.seleniumsimplified in seleniumWebdriver" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_seleniumsimplified_in_seleniumWebdriver - 2017.06.20 at 10h 00m 40s.xml">
       <configuration name="com.seleniumsimplified in seleniumWebdriver" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1194,7 +1202,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/seleniumsimplified/PropertyManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
-          <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+          <caret line="15" column="51" lean-forward="false" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -1202,7 +1210,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/seleniumsimplified/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
           <folding />
         </state>
       </provider>
