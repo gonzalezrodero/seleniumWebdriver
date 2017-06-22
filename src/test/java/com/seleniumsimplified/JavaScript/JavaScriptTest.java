@@ -73,14 +73,14 @@ public class JavaScriptTest extends BaseTest{
         assertFalse(button.isDisplayed());
     }
 
-    @Test
-    public void jsFunctionLeftBehind(){
-        js.executeScript("alert('alert triggered by webdriver');");
-        assertThat(driver.switchTo().alert().getText(), is("alert triggered by webdriver"));
-        driver.switchTo().alert().accept();
-        js.executeScript("window.webdriveralert = function(){alert('stored alert triggered by webdriver');}");
-        js.executeScript("window.webdriveralert.call();");
-        assertThat(driver.switchTo().alert().getText(), is("stored alert triggered by webdriver"));
-        driver.switchTo().alert().accept();
-    }
+//    @Test
+//    public void jsFunctionLeftBehind(){
+//        js.executeScript("alert('alert triggered by webdriver');");
+//        assertThat(driver.switchTo().alert().getText(), is("alert triggered by webdriver"));
+//        driver.switchTo().alert().accept();
+//        js.executeScript("window.webdriveralert = function(){alert('stored alert triggered by webdriver');}");
+//        js.executeScript("window.webdriveralert.call();");
+//        assertThat(driver.switchTo().alert().getText(), is("stored alert triggered by webdriver"));
+//        driver.switchTo().alert().accept();
+//    }
 }

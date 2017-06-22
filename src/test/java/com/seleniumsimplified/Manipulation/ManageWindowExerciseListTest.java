@@ -1,6 +1,7 @@
 package com.seleniumsimplified.Manipulation;
 
 import com.seleniumsimplified.BaseTest;
+import com.seleniumsimplified.Driver;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -33,22 +34,26 @@ public class ManageWindowExerciseListTest extends BaseTest{
 
     @Test
     public void maximizeWindow() throws InterruptedException {
-        driver.manage().window().maximize();
-        Dimension windowSizeMax = driver.manage().window().getSize();
+        if(System.getProperty(Driver.BROWSER_PROPERTY_NAME).contentEquals("CHROME")){
+            driver.manage().window().maximize();
+            Dimension windowSizeMax = driver.manage().window().getSize();
 
-        assertThat(windowSizeMax.getHeight(), greaterThan((int) (fullScreenSize.getHeight()*0.50)));
-        assertThat(windowSizeMax.getWidth(), greaterThan((int) (fullScreenSize.getWidth()*0.50)));
+            assertThat(windowSizeMax.getHeight(), greaterThan((int) (fullScreenSize.getHeight()*0.50)));
+            assertThat(windowSizeMax.getWidth(), greaterThan((int) (fullScreenSize.getWidth()*0.50)));
+        }
     }
 
     @Test
     public void reduceWindowHalfSize(){
-        driver.manage().window().maximize();
-        Dimension windowSizeMax = driver.manage().window().getSize();
-        driver.manage().window().setSize(new Dimension(windowSizeMax.getWidth()/2, windowSizeMax.getHeight()/2));
+        if(System.getProperty(Driver.BROWSER_PROPERTY_NAME).contentEquals("CHROME")) {
+            driver.manage().window().maximize();
+            Dimension windowSizeMax = driver.manage().window().getSize();
+            driver.manage().window().setSize(new Dimension(windowSizeMax.getWidth() / 2, windowSizeMax.getHeight() / 2));
 
-        Dimension windowSize = driver.manage().window().getSize();
-        driver.manage().window().setPosition(new Point(windowSize.getWidth()/2, windowSize.getHeight()/2));
-        bounce(driver.manage().window().getPosition(), windowSizeMax);
+            Dimension windowSize = driver.manage().window().getSize();
+            driver.manage().window().setPosition(new Point(windowSize.getWidth() / 2, windowSize.getHeight() / 2));
+            bounce(driver.manage().window().getPosition(), windowSizeMax);
+        }
     }
 
     private void bounce(Point windowLocation, Dimension screenSize){

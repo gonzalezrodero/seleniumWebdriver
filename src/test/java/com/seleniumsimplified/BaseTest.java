@@ -6,17 +6,24 @@ import org.openqa.selenium.WebDriver;
 
 import java.io.IOException;
 
+import static com.seleniumsimplified.Driver.*;
+
 public class BaseTest {
-    private static final int PORT = 4723;
     public static WebDriver driver;
+    public static Driver webDriver;
+
+    public BaseTest(){
+        webDriver = new Driver();
+    }
 
     @BeforeClass
     public static void beforeAll() throws Exception {
-        driver = Driver.get();
+        setWebDriver();
+        driver = getWebDriver();
     }
 
     @AfterClass
     public static void afterAll() throws InterruptedException, IOException {
-        Driver.quit();
+        quitWebDriver();
     }
 }

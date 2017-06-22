@@ -16,51 +16,70 @@ import static com.seleniumsimplified.Appium.*;
 import static com.seleniumsimplified.PropertyManager.*;
 
 public class Driver {
-    static final String BROWSER_PROPERTY_NAME = "selenium2basics.driver";
-    public static String  browserToUse = "";
+    public static final String BROWSER_PROPERTY_NAME = "selenium2basics.driver";
     private static final File PHANTOMJS_EXE =
             new File(System.getProperty("user.dir"), "tools/phantomjs-2.1.1-macosx/bin/phantomjs");
+    public static String  browserToUse = "";
     private static WebDriver webDriver;
 
-    public static WebDriver get() throws Exception {
-        if(webDriver != null){
-            return webDriver;
-        }
-        browserToUse = System.getProperty(BROWSER_PROPERTY_NAME);
-        switch (browserToUse) {
-            case "CHROME":
-                //System.setProperty("webdriver.chrome.driver", "webdrivers/chrome/chromedriver");
-                return webDriver = new ChromeDriver();
-            case "FIREFOX":
-                DesiredCapabilities ffCaps = DesiredCapabilities.firefox();
-                ffCaps.setCapability(CapabilityType.TAKES_SCREENSHOT, Boolean.TRUE);
-                return webDriver = new FirefoxDriver(ffCaps);
-            case "IE":
-                DesiredCapabilities ieCaps = DesiredCapabilities.internetExplorer();
-                ieCaps.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, Boolean.TRUE);
-                return webDriver = new InternetExplorerDriver(ieCaps);
-            case "HTMLUNIT":
-                return webDriver = new HtmlUnitDriver();
-            case "GHOST":
-                DesiredCapabilities phantomCaps = DesiredCapabilities.phantomjs();
-                phantomCaps.setJavascriptEnabled(true);
-                phantomCaps.setCapability("phantomjs.binary.path", PHANTOMJS_EXE.getAbsolutePath());
-                return webDriver = new PhantomJSDriver(phantomCaps);
-            case "SAUCE_LABS":
-                return webDriver = getSauceRemoteWebDriver();
-            case "APPIUM":
-                startAppiumServer();
-                return webDriver = getAppiumRemoteWebDriver();
-            default:
-                return webDriver = new ChromeDriver();
+    public static void setWebDriver() throws Exception {
+        if(webDriver == null) {
+            System.setProperty(BROWSER_PROPERTY_NAME, "FIREFOX");
+            browserToUse = System.getProperty(BROWSER_PROPERTY_NAME);
+            switch (browserToUse) {
+                case "CHROME":
+                    //System.setProperty("webdriver.chrome.driver", "webdrivers/chrome/chromedriver");
+                    webDriver = new ChromeDriver();
+                    break;
+                case "FIREFOX":
+                    DesiredCapabilities ffCaps = DesiredCapabilities.firefox();
+                    ffCaps.setCapability(CapabilityType.TAKES_SCREENSHOT, Boolean.TRUE);
+                    webDriver = new FirefoxDriver(ffCaps);
+                    break;
+                case "IE":
+                    DesiredCapabilities ieCaps = DesiredCapabilities.internetExplorer();
+                    ieCaps.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, Boolean.TRUE);
+                    webDriver = new InternetExplorerDriver(ieCaps);
+                    break;
+                case "HTMLUNIT":
+                    webDriver = new HtmlUnitDriver();
+                    break;
+                case "GHOST":
+                    DesiredCapabilities phantomCaps = DesiredCapabilities.phantomjs();
+                    phantomCaps.setJavascriptEnabled(true);
+                    phantomCaps.setCapability("phantomjs.binary.path", PHANTOMJS_EXE.getAbsolutePath());
+                    webDriver = new PhantomJSDriver(phantomCaps);
+                    break;
+                case "SAUCE_LABS":
+                    webDriver = getSauceRemoteWebDriver();
+                    break;
+                case "APPIUM":
+                    startAppiumServer();
+                    webDriver = getAppiumRemoteWebDriver();
+                    break;
+                default:
+                    webDriver = new ChromeDriver();
+            }
+
         }
     }
 
-    static void quit() throws InterruptedException, IOException {
-        webDriver.quit();
-        if (browserToUse.equals("APPIUM")){
-            stopAppiumServer();
-        }
+    public static WebDriver getWebDriver(){
+        return webDriver;
+    }
+
+    public static void quitWebDriver() throws InterruptedException, IOException {
+        Runtime.getRuntime().addShutdownHook(
+                new Thread(){
+                    public void run(){
+                        webDriver.quit();
+                    }
+                }
+        );
+        //        webDriver.quit();
+        //        if (browserToUse.equals("APPIUM")){
+        //            stopAppiumServer();
+        //        }
     }
 
     public static void close(){

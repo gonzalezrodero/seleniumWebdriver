@@ -1,14 +1,16 @@
 package com.seleniumsimplified.Manipulation;
 
 import com.seleniumsimplified.BaseTest;
-import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchWindowException;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import javax.annotation.Nullable;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Iterator;
@@ -16,7 +18,7 @@ import java.util.Iterator;
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
-import static org.openqa.selenium.support.ui.ExpectedConditions.titleContains;
+import static org.openqa.selenium.support.ui.ExpectedConditions.*;
 
 public class WindowExerciseListTest extends BaseTest{
     private static WebDriverWait wait;
@@ -37,9 +39,9 @@ public class WindowExerciseListTest extends BaseTest{
 
         String newWindowHandle = framesWindowHandle;
 
-        Iterator<String> handle = driver.getWindowHandles().iterator();
+
         while(newWindowHandle.equals(framesWindowHandle)){
-            newWindowHandle = handle.next();
+            newWindowHandle = wait.until(windowHandleToBeAvailable());
         }
 
         switchToWindow(newWindowHandle);
@@ -59,12 +61,14 @@ public class WindowExerciseListTest extends BaseTest{
     @Test
     public void switchToByName(){
         String frameWindowHandle = driver.getWindowHandle();
-
         switchToFrame("content");
+
         driver.findElement(By.cssSelector("a[id='goevil']")).click();
+        wait.until(presenceOfElementLocated(By.cssSelector("a[target='compdev']")));
         driver.findElement(By.cssSelector("a[target='compdev']")).click();
 
         switchToWindow("compdev");
+        wait.until(ExpectedConditions.titleContains("Software Testing"));
         assertThat(driver.getTitle(), containsString("Software Testing"));
 
         switchToWindow("evil");
@@ -77,18 +81,53 @@ public class WindowExerciseListTest extends BaseTest{
         driver.close();
         assertThat(driver.getWindowHandles().size(), is(2));
 
-        switchToWindow("evil");
+        //driver.switchTo().defaultContent();
+        //switchToWindow("evil");
+        driver.switchTo().window(driver.getWindowHandles().iterator().next());
         driver.close();
         assertThat(driver.getWindowHandles().size(), is(1));
     }
 
-    private void switchToFrame(String frame)
-    {
-        driver.switchTo().frame(frame);
+//    @After
+//    public void goToMainWindow(){
+//        driver.switchTo().window(driver.getWindowHandles().iterator().next());
+//    }
+
+    private void switchToFrame(String frame){
+        wait.until(frameToBeAvailableAndSwitchToIt(frame));
     }
 
-    private void switchToWindow(String window)
-    {
-        driver.switchTo().window(window);
+    private void switchToWindow(String window){
+        wait.until(windowToBeAvailable(window));
+    }
+
+    private ExpectedCondition<Boolean> windowToBeAvailable(String windowName){
+        return new ExpectedCondition<Boolean>() {
+            @Nullable
+            @Override
+            public Boolean apply(@Nullable WebDriver driver) {
+                try{
+                    driver.switchTo().window(windowName);
+                    return true;
+                } catch (NoSuchWindowException e){
+                    return false;
+                }
+            }
+        };
+    }
+
+    private ExpectedCondition<String> windowHandleToBeAvailable(){
+        return new ExpectedCondition<String>() {
+            @Nullable
+            @Override
+            public String apply(@Nullable WebDriver driver) {
+                try{
+                    Iterator<String> handle = driver.getWindowHandles().iterator();
+                    return handle.next();
+                } catch (NoSuchWindowException e){
+                    return null;
+                }
+            }
+        };
     }
 }

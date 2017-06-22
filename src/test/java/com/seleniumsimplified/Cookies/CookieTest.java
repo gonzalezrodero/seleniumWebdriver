@@ -16,6 +16,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import static org.hamcrest.Matchers.greaterThan;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
@@ -58,6 +59,6 @@ public class CookieTest extends BaseTest{
         );
         driver.findElement(By.cssSelector("input[type='submit']")).click();
         cookie = driver.manage().getCookieNamed("seleniumSimplifiedSearchNumVisits");
-        assertThat(cookie.getValue(), is("43"));
+        assertThat(cookie.getValue(), is(greaterThan("41")));
     }
 }
