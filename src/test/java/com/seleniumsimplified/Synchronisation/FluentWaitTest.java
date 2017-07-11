@@ -22,9 +22,6 @@ import java.util.function.Function;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
-/**
- * Created by drn0342 on 27/04/2017.
- */
 public class FluentWaitTest extends BaseTest{
     private static URL url;
     private static FluentWait<WebElement> fluentWait;

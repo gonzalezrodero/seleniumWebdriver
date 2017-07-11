@@ -1,5 +1,6 @@
 package com.seleniumsimplified;
 
+import org.apache.commons.lang3.ObjectUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -16,17 +17,16 @@ import static com.seleniumsimplified.Appium.*;
 import static com.seleniumsimplified.PropertyManager.*;
 
 public class Driver {
-    public static final String BROWSER_PROPERTY_NAME = "selenium2basics.driver";
-    private static final File PHANTOMJS_EXE =
-            new File(System.getProperty("user.dir"), "tools/phantomjs-2.1.1-macosx/bin/phantomjs");
+    public static final String BROWSER = "selenium2basics.driver";
+    private static final File PHANTOMJS = new File("tools/phantomjs-2.1.1-macosx/bin/phantomjs");
     public static String  browserToUse = "";
     private static WebDriver webDriver;
 
     public static void setWebDriver() throws Exception {
         if(webDriver == null) {
-            System.setProperty(BROWSER_PROPERTY_NAME, "FIREFOX");
-            browserToUse = System.getProperty(BROWSER_PROPERTY_NAME);
-            switch (browserToUse) {
+            setDefaultBrowser();
+
+            switch (System.getProperty(BROWSER)) {
                 case "CHROME":
                     //System.setProperty("webdriver.chrome.driver", "webdrivers/chrome/chromedriver");
                     webDriver = new ChromeDriver();
@@ -47,7 +47,7 @@ public class Driver {
                 case "GHOST":
                     DesiredCapabilities phantomCaps = DesiredCapabilities.phantomjs();
                     phantomCaps.setJavascriptEnabled(true);
-                    phantomCaps.setCapability("phantomjs.binary.path", PHANTOMJS_EXE.getAbsolutePath());
+                    phantomCaps.setCapability("phantomjs.binary.path", PHANTOMJS.getAbsolutePath());
                     webDriver = new PhantomJSDriver(phantomCaps);
                     break;
                 case "SAUCE_LABS":
@@ -84,6 +84,12 @@ public class Driver {
 
     public static void close(){
         webDriver.close();
+    }
+
+    private static void setDefaultBrowser() {
+        if (System.getProperty(BROWSER) == null) {
+            System.setProperty(BROWSER, "FIREFOX");
+        }
     }
 
     private static WebDriver getSauceRemoteWebDriver() throws IOException {

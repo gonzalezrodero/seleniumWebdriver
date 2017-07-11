@@ -33,7 +33,6 @@ public class TakeScreenshotTest extends BaseTest {
     public static void goToUrl() throws MalformedURLException {
         url = new URL("http://www.google.com");
         driver.navigate().to(url);
-
     }
 
     @Test
