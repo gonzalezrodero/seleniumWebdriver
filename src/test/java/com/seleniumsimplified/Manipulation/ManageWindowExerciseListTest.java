@@ -2,14 +2,10 @@ package com.seleniumsimplified.Manipulation;
 
 import com.seleniumsimplified.BaseTest;
 import com.seleniumsimplified.Driver;
-import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
-import org.openqa.selenium.UnhandledAlertException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.awt.*;
 import java.net.MalformedURLException;
@@ -34,7 +30,7 @@ public class ManageWindowExerciseListTest extends BaseTest{
 
     @Test
     public void maximizeWindow() throws InterruptedException {
-        if(System.getProperty(Driver.BROWSER_PROPERTY_NAME).contentEquals("CHROME")){
+        if(System.getProperty(Driver.BROWSER).contentEquals("CHROME")){
             driver.manage().window().maximize();
             Dimension windowSizeMax = driver.manage().window().getSize();
 
@@ -45,7 +41,7 @@ public class ManageWindowExerciseListTest extends BaseTest{
 
     @Test
     public void reduceWindowHalfSize(){
-        if(System.getProperty(Driver.BROWSER_PROPERTY_NAME).contentEquals("CHROME")) {
+        if(System.getProperty(Driver.BROWSER).contentEquals("CHROME")) {
             driver.manage().window().maximize();
             Dimension windowSizeMax = driver.manage().window().getSize();
             driver.manage().window().setSize(new Dimension(windowSizeMax.getWidth() / 2, windowSizeMax.getHeight() / 2));

@@ -16,16 +16,16 @@ import static com.seleniumsimplified.Appium.*;
 import static com.seleniumsimplified.PropertyManager.*;
 
 public class Driver {
-    public static final String BROWSER_PROPERTY_NAME = "selenium2basics.driver";
+    public static final String BROWSER = "selenium2basics.driver";
     private static final File PHANTOMJS = new File("tools/phantomjs-2.1.1-macosx/bin/phantomjs");
     public static String  browserToUse = "";
     private static WebDriver webDriver;
 
     public static void setWebDriver() throws Exception {
         if(webDriver == null) {
-            System.setProperty(BROWSER_PROPERTY_NAME, "GHOST");
-            browserToUse = System.getProperty(BROWSER_PROPERTY_NAME);
-            switch (browserToUse) {
+            setDefaultBrowser();
+
+            switch (System.getProperty(BROWSER)) {
                 case "CHROME":
                     //System.setProperty("webdriver.chrome.driver", "webdrivers/chrome/chromedriver");
                     webDriver = new ChromeDriver();
@@ -83,6 +83,12 @@ public class Driver {
 
     public static void close(){
         webDriver.close();
+    }
+
+    private static void setDefaultBrowser() {
+        if (System.getProperty(BROWSER) == null) {
+            System.setProperty(BROWSER, "FIREFOX");
+        }
     }
 
     private static WebDriver getSauceRemoteWebDriver() throws IOException {

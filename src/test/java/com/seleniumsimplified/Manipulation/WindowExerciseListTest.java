@@ -1,8 +1,10 @@
 package com.seleniumsimplified.Manipulation;
 
 import com.seleniumsimplified.BaseTest;
+import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.junit.After;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchWindowException;
 import org.openqa.selenium.WebDriver;
@@ -28,6 +30,10 @@ public class WindowExerciseListTest extends BaseTest{
     public static void startTests() throws MalformedURLException{
         wait = new WebDriverWait(driver, 300);
         url = new URL("http://compendiumdev.co.uk/selenium/frames/index.html");
+    }
+
+    @Before
+    public void goToSite(){
         driver.navigate().to(url);
     }
 
@@ -50,7 +56,6 @@ public class WindowExerciseListTest extends BaseTest{
         assertThat(driver.getTitle(), containsString("Selenium Simplified"));
 
         switchToWindow(framesWindowHandle);
-        switchToFrame("content");
         assertThat(driver.getTitle(), containsString("Frameset Example"));
 
         switchToWindow(newWindowHandle);
@@ -68,7 +73,7 @@ public class WindowExerciseListTest extends BaseTest{
         driver.findElement(By.cssSelector("a[target='compdev']")).click();
 
         switchToWindow("compdev");
-        wait.until(ExpectedConditions.titleContains("Software Testing"));
+        wait.until(titleContains("Software Testing"));
         assertThat(driver.getTitle(), containsString("Software Testing"));
 
         switchToWindow("evil");
@@ -87,11 +92,6 @@ public class WindowExerciseListTest extends BaseTest{
         driver.close();
         assertThat(driver.getWindowHandles().size(), is(1));
     }
-
-//    @After
-//    public void goToMainWindow(){
-//        driver.switchTo().window(driver.getWindowHandles().iterator().next());
-//    }
 
     private void switchToFrame(String frame){
         wait.until(frameToBeAvailableAndSwitchToIt(frame));
@@ -123,7 +123,11 @@ public class WindowExerciseListTest extends BaseTest{
             public String apply(@Nullable WebDriver driver) {
                 try{
                     Iterator<String> handle = driver.getWindowHandles().iterator();
-                    return handle.next();
+                    String lastHandle = handle.next();
+                    while(handle.hasNext()){
+                        lastHandle = handle.next();
+                    }
+                    return lastHandle;
                 } catch (NoSuchWindowException e){
                     return null;
                 }

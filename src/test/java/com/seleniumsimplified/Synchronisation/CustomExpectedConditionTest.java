@@ -21,9 +21,6 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 import static org.openqa.selenium.support.ui.ExpectedConditions.elementToBeClickable;
 
-/**
- * Created by drn0342 on 27/04/2017.
- */
 public class CustomExpectedConditionTest extends BaseTest{
     private static WebDriverWait wait;
     private static URL url;
