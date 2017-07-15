@@ -23,14 +23,15 @@ public class Driver {
 
     public static void setWebDriver() throws Exception {
         if(webDriver == null) {
-            setDefaultBrowser();
+            //setDefaultBrowser();
 
             switch (System.getProperty(BROWSER)) {
                 case "CHROME":
-                    //System.setProperty("webdriver.chrome.driver", "webdrivers/chrome/chromedriver");
+                    System.setProperty("webdriver.chrome.driver", "webdrivers/chrome/chromedriver");
                     webDriver = new ChromeDriver();
                     break;
                 case "FIREFOX":
+                    System.setProperty("webdriver.gecko.driver", "webdrivers/chrome/geckodriver");
                     DesiredCapabilities ffCaps = DesiredCapabilities.firefox();
                     ffCaps.setCapability(CapabilityType.TAKES_SCREENSHOT, Boolean.TRUE);
                     webDriver = new FirefoxDriver(ffCaps);

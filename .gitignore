@@ -9,4 +9,4 @@ target
 out
 gen
 screenshots
-target/
+target/surefire-reports
