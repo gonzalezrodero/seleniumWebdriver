@@ -31,7 +31,7 @@ public class Driver {
                     webDriver = new ChromeDriver();
                     break;
                 case "FIREFOX":
-                    System.setProperty("webdriver.gecko.driver", "webdrivers-mac/chrome/geckodriver");
+                    System.setProperty("webdriver.gecko.driver", "webdrivers-mac/geckodriver/geckodriver");
                     DesiredCapabilities ffCaps = DesiredCapabilities.firefox();
                     ffCaps.setCapability(CapabilityType.TAKES_SCREENSHOT, Boolean.TRUE);
                     webDriver = new FirefoxDriver(ffCaps);
