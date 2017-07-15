@@ -17,14 +17,13 @@ import static com.seleniumsimplified.PropertyManager.*;
 
 public class Driver {
     public static final String BROWSER_PROPERTY_NAME = "selenium2basics.driver";
-    private static final File PHANTOMJS_EXE =
-            new File(System.getProperty("user.dir"), "tools/phantomjs-2.1.1-macosx/bin/phantomjs");
+    private static final File PHANTOMJS = new File("tools/phantomjs-2.1.1-macosx/bin/phantomjs");
     public static String  browserToUse = "";
     private static WebDriver webDriver;
 
     public static void setWebDriver() throws Exception {
         if(webDriver == null) {
-            System.setProperty(BROWSER_PROPERTY_NAME, "FIREFOX");
+            System.setProperty(BROWSER_PROPERTY_NAME, "GHOST");
             browserToUse = System.getProperty(BROWSER_PROPERTY_NAME);
             switch (browserToUse) {
                 case "CHROME":
@@ -47,7 +46,7 @@ public class Driver {
                 case "GHOST":
                     DesiredCapabilities phantomCaps = DesiredCapabilities.phantomjs();
                     phantomCaps.setJavascriptEnabled(true);
-                    phantomCaps.setCapability("phantomjs.binary.path", PHANTOMJS_EXE.getAbsolutePath());
+                    phantomCaps.setCapability("phantomjs.binary.path", PHANTOMJS.getAbsolutePath());
                     webDriver = new PhantomJSDriver(phantomCaps);
                     break;
                 case "SAUCE_LABS":
