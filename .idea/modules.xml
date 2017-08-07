@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/seleniumWebdriver.iml" filepath="$PROJECT_DIR$/seleniumWebdriver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webdriverbasics.iml" filepath="$PROJECT_DIR$/webdriverbasics.iml" />
     </modules>
   </component>
 </project>
