@@ -27,11 +27,11 @@ public class Driver {
 
             switch (System.getProperty(BROWSER)) {
                 case "CHROME":
-                    System.setProperty("webdriver.chrome.driver", "webdrivers-mac/chrome/chromedriver");
+                    System.setProperty("webdriver.chrome.driver", "webdrivers-mac/chrome/chromedriver.exe");
                     webDriver = new ChromeDriver();
                     break;
                 case "FIREFOX":
-                    System.setProperty("webdriver.gecko.driver", "webdrivers-mac/geckodriver/geckodriver");
+                    System.setProperty("webdriver.gecko.driver", "webdrivers-mac/geckodriver/geckodriver.exe");
                     DesiredCapabilities ffCaps = DesiredCapabilities.firefox();
                     ffCaps.setCapability(CapabilityType.TAKES_SCREENSHOT, Boolean.TRUE);
                     webDriver = new FirefoxDriver(ffCaps);
@@ -76,10 +76,9 @@ public class Driver {
                     }
                 }
         );
-        //        webDriver.quit();
-        //        if (browserToUse.equals("APPIUM")){
-        //            stopAppiumServer();
-        //        }
+        if (browserToUse.equals("APPIUM")){
+            stopAppiumServer();
+        }
     }
 
     public static void close(){
