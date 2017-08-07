@@ -28,7 +28,7 @@ public class WindowExerciseListTest extends BaseTest{
 
     @BeforeClass
     public static void startTests() throws MalformedURLException{
-        wait = new WebDriverWait(driver, 300);
+        wait = new WebDriverWait(driver, 10);
         url = new URL("http://compendiumdev.co.uk/selenium/frames/index.html");
     }
 
@@ -86,11 +86,11 @@ public class WindowExerciseListTest extends BaseTest{
         driver.close();
         assertThat(driver.getWindowHandles().size(), is(2));
 
-        //driver.switchTo().defaultContent();
-        //switchToWindow("evil");
-        driver.switchTo().window(driver.getWindowHandles().iterator().next());
+        switchToWindow(driver.getWindowHandles().iterator().next());
         driver.close();
         assertThat(driver.getWindowHandles().size(), is(1));
+
+        switchToWindow(driver.getWindowHandles().iterator().next());
     }
 
     private void switchToFrame(String frame){

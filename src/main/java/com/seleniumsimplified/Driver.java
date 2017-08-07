@@ -23,7 +23,7 @@ public class Driver {
 
     public static void setWebDriver() throws Exception {
         if(webDriver == null) {
-            //setDefaultBrowser();
+            setDefaultBrowser();
 
             switch (System.getProperty(BROWSER)) {
                 case "CHROME":
