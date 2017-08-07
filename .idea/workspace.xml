@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c95706d-b67c-4f69-8d1e-e23d90402ec7" name="Default" comment="changes">
+    <list default="true" id="1c95706d-b67c-4f69-8d1e-e23d90402ec7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/seleniumsimplified/Driver.class" afterPath="$PROJECT_DIR$/target/classes/com/seleniumsimplified/Driver.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumsimplified/Cookies/CookieTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumsimplified/Cookies/CookieTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumsimplified/Synchronisation/CustomExpectedConditionTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumsimplified/Synchronisation/CustomExpectedConditionTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumsimplified/Synchronisation/FluentWaitTest$1.class" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumsimplified/Synchronisation/FluentWaitTest$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumsimplified/Synchronisation/FluentWaitTest$2.class" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumsimplified/Synchronisation/FluentWaitTest$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumsimplified/Synchronisation/FluentWaitTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumsimplified/Synchronisation/FluentWaitTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/seleniumsimplified/Driver.java" afterPath="$PROJECT_DIR$/src/main/java/com/seleniumsimplified/Driver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Manipulation/WindowExerciseListTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Manipulation/WindowExerciseListTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,17 +30,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Driver.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Driver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/seleniumsimplified/Driver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="79" column="31" lean-forward="true" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
+            <state relative-caret-position="252">
+              <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FrameExerciseListTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FrameExerciseListTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Manipulation/FrameExerciseListTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="690">
@@ -185,8 +182,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/JavaScript/JavaScriptTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Cookies/CookieTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/seleniumsimplified/Driver.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/seleniumsimplified/Manipulation/WindowExerciseListTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seleniumsimplified/Driver.java" />
       </list>
     </option>
   </component>
@@ -1106,7 +1103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502116932495</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="working changes">
+      <created>1502119275142</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1502119275142</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1195,7 +1199,8 @@
     <MESSAGE value="working" />
     <MESSAGE value="changes in tests to pass in mac" />
     <MESSAGE value="changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+    <MESSAGE value="working changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="working changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1499,14 +1504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/seleniumsimplified/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="79" column="31" lean-forward="true" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.1/junit-4.8.1-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -1519,6 +1516,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="50" column="35" lean-forward="true" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seleniumsimplified/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
           <folding />
         </state>
       </provider>
