@@ -27,11 +27,11 @@ public class Driver {
 
             switch (System.getProperty(BROWSER)) {
                 case "CHROME":
-                    System.setProperty("webdriver.chrome.driver", "webdrivers-mac/chrome/chromedriver.exe");
+                    System.setProperty("webdriver.chrome.driver", "webdrivers-win/chrome/chromedriver.exe");
                     webDriver = new ChromeDriver();
                     break;
                 case "FIREFOX":
-                    System.setProperty("webdriver.gecko.driver", "webdrivers-mac/geckodriver/geckodriver.exe");
+                    System.setProperty("webdriver.gecko.driver", "webdrivers-win/geckodriver/geckodriver.exe");
                     DesiredCapabilities ffCaps = DesiredCapabilities.firefox();
                     ffCaps.setCapability(CapabilityType.TAKES_SCREENSHOT, Boolean.TRUE);
                     webDriver = new FirefoxDriver(ffCaps);
